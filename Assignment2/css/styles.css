@@ -1,0 +1,81 @@
+/********** Base styles **********/
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 15px;
+	margin: 2%;
+	height: 500px;
+}
+section {
+	background-color: #aaaaaa;
+	border: 1px solid black;
+	margin: 3% 2% 3% 2%;
+	padding: 0px;
+	overflow: hidden;
+}
+.food {
+	border: 1px solid black;
+	float: right;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: -1px -1px 0px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 40%;
+}
+.quote {
+	clear: right;
+	padding: 10px;
+	text-align: left;
+}
+#menu {
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	margin: 2%;
+}
+#chicken {
+	background-color: #ffc0cb;
+}
+#beef {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+#sushi {
+	background-color: #ffffaa;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	section {
+		float: left;
+		width: 29.33%;
+		height: 45%;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#s1, #s2 {
+		float: left;
+		width: 46%;
+		height: 25%;
+	}
+	#s3 {
+		clear: left;
+		width: 96%;
+		height: 25%;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	section {
+		width: 96%;
+		height: 30%;
+	}
+}
