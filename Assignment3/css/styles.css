@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 1px solid #000000;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+#nav-list {
+  margin-top: -1px;
+  margin-bottom: 0px;
+}
+#nav-list li {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+
+/* END HEADER */
+.row {
+  padding: 10px;
+}
+
+.row .col-xs-12 {
+	background-color: #808080;
+	padding: 10px;
+}
